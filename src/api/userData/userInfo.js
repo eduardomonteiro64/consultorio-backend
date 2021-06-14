@@ -6,6 +6,7 @@ const userInfoSchema = new mongoose.Schema({
   federalDocument: { type: String },
   stateDocument: { type: String, required: true },
   gender: { type: String, required: true },
+  email: { type: String },
   birthDate: { type: String, required: true },
   telephone: { type: Number, required: true },
   healthPlan: { type: String, required: false },
