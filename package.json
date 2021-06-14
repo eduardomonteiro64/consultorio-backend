@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon",
     "production": "pm2 start src/loader.js --name consultorio",
-    "start": "pm2 start src/loader.js --name consultorio"
+    "start": "node src/loader.js"
   },
   "keywords": [],
   "author": "",
