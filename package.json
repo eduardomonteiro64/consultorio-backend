@@ -12,8 +12,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "body-parser": "^1.15.2",
-    "express": "^4.14.0",
+    "body-parser": "*",
+    "express": "*",
     "mongoose": "^5.12.7",
     "node-restful": "^0.2.5",
     "nodemon": "^1.11.0",
