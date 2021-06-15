@@ -8,7 +8,7 @@ const userInfoSchema = new mongoose.Schema({
   gender: { type: String, required: true },
   email: { type: String },
   birthDate: { type: String, required: true },
-  telephone: { type: Number, required: true },
+  telephone: { type: String, required: true },
   healthPlan: { type: String, required: false },
   postalNumber: { type: Number, required: true },
   streetName: { type: String, required: true },
