@@ -16,4 +16,8 @@ module.exports = function (server) {
   // userHistory Routes
   const userHistoryService = require("../api/userHistory/userHistoryService");
   userHistoryService.register(router, "/userHistoryService");
+
+  // userSchedule Routes
+  const userScheduleService = require("../api/userSchedule/userScheduleService");
+  userScheduleService.register(router, "/userScheduleService");
 };
